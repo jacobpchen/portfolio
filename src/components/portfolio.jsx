@@ -50,35 +50,21 @@ class Portfolio extends React.Component {
                   </div>
                 </a>
                 <a
-                  href={stock1}
+                  href={"https://res.cloudinary.com/boresism/image/upload/v1612996221/portfolio/Recipe_hero_xjjvpu.png"}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock2}
+                  href={"https://res.cloudinary.com/boresism/image/upload/v1612996313/portfolio/recipe_card_bvkxf7.png"}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock3}
-                  data-lightbox="gallery-vmarine"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock4}
-                  data-lightbox="gallery-vmarine"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock5}
+                  href={"https://res.cloudinary.com/boresism/image/upload/v1612996440/portfolio/entree_yvn3vv.png"}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
@@ -95,11 +81,10 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Project 2</h2>
+                        <h2 className="w-title">Symmetric Searchable Encryption Scheme</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap Webpack SmoothScrolling
-                            VanillaJS
+                            Python PyQt5 Cryptography
                           </span>{" "}
                         </div>
                       </div>

@@ -50,12 +50,12 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            "I graduated from SUNY Albany with a Bachelor of Science in Accounting. After graduation I worked at the front desk of a hotel where my hard work ethic was quickly noticed. I was promoted to a Sales Manager and then Director of Sales. While working as a Director of Sales, the group sales revenue increased by 20% over a 3 year span from 1.51 million to 1.83 million."
+            "I graduated from SUNY Albany with a Bachelor of Science in Accounting. After graduation I worked at the front desk of a hotel where my hard work ethic was quickly noticed. I was promoted to a Sales Manager and then Director of Sales. While working as a Director of Sales, the group sales revenue increased by 20% over a 3 year span from 1.51 million to 1.83 million while maintaining an occupancy of 92%."
         },
         {
           id: "second-p-about",
           content:
-            "After reflecting on what I wanted for myself in the future I decided to go back to school for a Bachelor of Science in Computer Science. During my senior year I was accepted in the Tech Talent Pipeline at the College of Staten Island. The first part of the program was to complete an intensive full stack web development bootcamp. I went from barely knowing JavaScript to creating a full stack MERN web application within a month."
+            "After reflecting on what I wanted for myself in the future I decided to go back to school for a Bachelor of Science in Computer Science. During my senior year I was accepted in the Tech Talent Pipeline at the College of Staten Island. The first part of the program was to complete an intensive full stack web development bootcamp. I went from barely understanding what an API is to creating a full stack MERN web application with my own custom API."
         },
         {
           id: "third-p-about",
