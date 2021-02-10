@@ -6,39 +6,45 @@ class About extends React.Component {
     super();
     this.state = {
       skills: [
-        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-        { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
-        {
-          id: "JavaScript_skill",
-          content: "JavaScript",
-          porcentage: "90%",
-          value: "90"
-        },
-        { id: "PHP_skill", content: "PHP", porcentage: "70%", value: "70" },
-        {
-          id: "ReactJS_skill",
-          content: "ReactJS",
-          porcentage: "80%",
-          value: "80"
-        },
         {
           id: "Python_skill",
           content: "Python",
-          porcentage: "75%",
-          value: "75"
+          percentage: "90%",
+          value: "90"
         },
         {
-          id: "VanillaJS_skill",
-          content: "VanillaJS",
-          porcentage: "85%",
+          id: "C++_skill",
+          content: "C++",
+          percentage: "85%",
           value: "85"
         },
         {
-          id: "Wordpress_skill",
-          content: "Wordpress",
-          porcentage: "80%",
+          id: "Java_skill",
+          content: "Java",
+          percentage: "80%",
           value: "80"
-        }
+        },
+        { id: "HTML5_skill", content: "HTML5", percentage: "80%", value: "80" },
+        { id: "CSS3_skill", content: "CSS3", percentage: "75%", value: "75" },
+        {
+          id: "JavaScript_skill",
+          content: "JavaScript",
+          percentage: "90%",
+          value: "90"
+        },
+        {
+          id: "ReactJS_skill",
+          content: "ReactJS",
+          percentage: "80%",
+          value: "80"
+        },
+
+        {
+          id: "VanillaJS_skill",
+          content: "VanillaJS",
+          percentage: "85%",
+          value: "85"
+        },
       ],
       about_me: [
         {
@@ -92,13 +98,13 @@ class About extends React.Component {
                           <React.Fragment key={skill.id}>
                             <span>{skill.content}</span>{" "}
                             <span className="pull-right">
-                              {skill.porcentage}
+                              {skill.percentage}
                             </span>
                             <div className="progress">
                               <div
                                 className="progress-bar"
                                 role="progressbar"
-                                style={{ width: skill.porcentage }}
+                                style={{ width: skill.percentage }}
                                 aria-valuenow={skill.value}
                                 aria-valuemin="0"
                                 aria-valuemax="100"
