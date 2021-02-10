@@ -55,7 +55,7 @@ class About extends React.Component {
         {
           id: "second-p-about",
           content:
-            "After reflecting on what I wanted for myself in the future I decided to go back to school for a Bachelor of Science in Computer Science. During my senior year I was accepted in the Tech Talent Pipeline at the College of Staten Island. The first part of the program was to complete an intensive full stack web development bootcamp. I went from barely understanding what an API is to creating a full stack MERN web application with my own custom API."
+            "After reflecting on what I wanted for myself in the future I decided to go back to school for a Bachelor of Science in Computer Science. During my senior year I was accepted in the Tech Talent Pipeline at the College of Staten Island. The first part of the program was to complete an intensive full stack web development bootcamp. I went from barely understanding vanilla JavaScript to creating a Full Stack React web application with my own custom API."
         },
         {
           id: "third-p-about",
