@@ -74,9 +74,9 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-aguadeluz">
+                <a href={"https://res.cloudinary.com/boresism/image/upload/v1613319371/portfolio/secure_index_console_f1uuet.png"} data-lightbox="gallery-aguadeluz">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={"https://res.cloudinary.com/boresism/image/upload/v1613319371/portfolio/secure_index_console_f1uuet.png"} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -97,14 +97,14 @@ class Portfolio extends React.Component {
                   </div>
                 </a>
                 <a
-                  href={stock1}
+                  href={"https://res.cloudinary.com/boresism/image/upload/v1613319372/portfolio/encrypted_documents_rn2nio.png"}
                   data-lightbox="gallery-aguadeluz"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock2}
+                  href={"https://res.cloudinary.com/boresism/image/upload/v1613319372/portfolio/decrypted_documents_ar06ag.png"}
                   data-lightbox="gallery-aguadeluz"
                   style={{ display: "none" }}
                 >
