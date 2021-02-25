@@ -110,42 +110,21 @@ class Portfolio extends React.Component {
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
-                <a
-                  href={stock3}
-                  data-lightbox="gallery-aguadeluz"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock4}
-                  data-lightbox="gallery-aguadeluz"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock5}
-                  data-lightbox="gallery-aguadeluz"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
               </div>
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-todo">
+                <a href={"https://res.cloudinary.com/boresism/image/upload/v1614265517/portfolio/Game_Screen_hc5cye.png"} data-lightbox="gallery-todo">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={"https://res.cloudinary.com/boresism/image/upload/v1614265517/portfolio/Game_Screen_hc5cye.png"} alt="picture of the game pong" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Project 3</h2>
+                        <h2 className="w-title">Totally NOT Pong</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap Webpack ReactJS
+                            JavaScript Phaser
                           </span>
                         </div>
                       </div>
@@ -158,7 +137,7 @@ class Portfolio extends React.Component {
                   </div>
                 </a>
                 <a
-                  href={stock1}
+                  href={"https://res.cloudinary.com/boresism/image/upload/v1614265517/portfolio/Title_screen_tqqzeq.png"}
                   data-lightbox="gallery-todo"
                   style={{ display: "none" }}
                 >
